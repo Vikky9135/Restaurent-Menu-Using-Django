@@ -21,3 +21,18 @@ but still we need to connect mysite to app.
 
 Django app setup completed.
 ------------------------------------------------------------------------------------------------------------------------
+
+Commint name : Creating Database Model.
+
+1. Create Physical database Model--> "models.py" with class variables.
+2. To make that migrations dynamically to the app .. In terminal run ..
+>>> python manage.py makemigrations
+
+This will create 2 files under migrations directory.
+
+3. Run command to execute the code under 0001_initial.py
+>>> python manage.py migrate
+
+This will create tables under "db.sqlite3" with column names as class variables from models.py...
+Now a Table must have created under "db.sqlite3"...
+------------------------------------------------------------------------------------------------------------------------
