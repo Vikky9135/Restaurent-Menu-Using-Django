@@ -36,3 +36,14 @@ This will create 2 files under migrations directory.
 This will create tables under "db.sqlite3" with column names as class variables from models.py...
 Now a Table must have created under "db.sqlite3"...
 ------------------------------------------------------------------------------------------------------------------------
+Commit Name: Creating Class based Views.
+
+1. Create a directory named "templates" under our app directory.
+2.Create a html file under templates as "index.html" and "menu_item_detail.html"
+Refer to the code if required.
+3.Also refer to "views.py"...
+4. Create a "urls.py" file under App name directory... To link the url with the html files.
+5.Go to urls.py under mysite and add path to current app.
+refer urls.py attached.
+6.Go to settings.py under mysite directory and change 'DIRS' = ['templates'] # This is optional.
+------------------------------------------------------------------------------------------------------------------------
