@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------------------
+Commit name : Set Up Django project and App.
+
+After QR Code generation ..
+
+1. Download Django.
+2. In terminal ... create "mysite" directory with the command
+>>> django-admin startproject mysite .
+mysite directory will be created with default folders in it.
+
+3. Even "manage.py" iss created by above command...
+4. In terminal run
+>>> python manage.py startapp "App-Name"
+A new directory with the app name is created.
+but still we need to connect mysite to app.
+
+5. In settings.py .. In that Installed app section ... add your app name with comma.
+
+6. Run the app with command..
+>>> python manage.py runserver
+
+Django app setup completed.
+------------------------------------------------------------------------------------------------------------------------
