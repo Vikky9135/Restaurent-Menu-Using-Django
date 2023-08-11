@@ -47,3 +47,14 @@ Refer to the code if required.
 refer urls.py attached.
 6.Go to settings.py under mysite directory and change 'DIRS' = ['templates'] # This is optional.
 ------------------------------------------------------------------------------------------------------------------------
+Commit name: Create admin Interfce and add data.
+
+1. Go to app directory and open admin.py file ----> write code.
+2. After creating admin menu list.. Goto Terminal
+>>> python manage.py createsuperuser
+
+This command will ask username , email, and password for admin login on website.. (password dont show up.. just type)
+
+3.go to url and search with extention ""/admin" ex: http://127.0.0.1:8000/admin   .
+4. In Items section add Items.
+------------------------------------------------------------------------------------------------------------------------
