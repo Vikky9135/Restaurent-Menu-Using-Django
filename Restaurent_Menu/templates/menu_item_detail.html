@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Menu Item</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ item.meal }}</h1>
+    <h2>Content ->{{ item.description }}</h2>
+    <h2>Rupees -> {{ item.price }} only.</h2>
+{% endblock content %}
